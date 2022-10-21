@@ -1,2 +1,12 @@
 /* TODO: Make it awesome */
 
+main {
+  background-color: bisque;
+}
+header {
+  background-color: beige;
+}
+footer {
+  background-color: beige;
+  text-align: center;
+}

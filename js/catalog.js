@@ -64,7 +64,7 @@ function updateCartPreview() {
   let cartPreview = document.getElementById('cartContents');
   let cartList = document.createElement('ul');
   let cartListItem = document.createElement('li');
-  cartListItem.textContent = `${selectedItems} qty: ${selectedQuantity}`;
+  cartListItem.textContent = `${selectedItems} Quantity ${selectedQuantity}`;
   cartList.appendChild(cartListItem);
   cartPreview.appendChild(cartList);
 }
